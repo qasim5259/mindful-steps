@@ -141,16 +141,39 @@ body {
   line-height: 1.6;
 }
 
+/* Tips section */
+#tips h2 {
+  color: var(--primary-color);
+  margin-bottom: 0.75rem;
+}
+
+#tips .card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+#tips .card {
+  border-color: var(--accent-color);
+  background-color: var(--background-color);
+}
+
+#tips .card-body {
+  padding: 1.25rem;
+}
+
+#tips .card-text {
+  line-height: 1.6;
+}
+
 /* media queries */
 
-/* Small devices (medium devices, 768px and up */
+/* Small devices (medium devices, 768px and up) */
 @media screen and (min-width: 768px) {
   .hero-section {
     min-height: 65vh;
   }
 }
 
-/* Large devices (larger devices, 992px and up */
+/* Large devices (larger devices, 992px and up) */
 @media screen and (min-width: 992px) {
   .hero-section {
     min-height: 80vh;
