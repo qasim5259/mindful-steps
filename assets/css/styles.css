@@ -6,9 +6,9 @@
   --primary-font: "Poppins", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
   --primary-color: #4f6f52; /* Dark Green  */
-  --secondary-color: #67a465; /* Light Green  */
+  --secondary-color: #6c7b55; /* Olive Green  */
   --accent-color: #c2a878; /* Beige  */
-  --background-color: #f1f5f2; /* White  */
+  --background-color: #fbf6e5; /* White  */
   --text-color: #333333; /* Dark grey  */
 }
 
@@ -58,4 +58,58 @@ body {
 #navbar .navbar-brand:hover,
 #navbar .navbar-brand:focus-visible {
   color: var(--text-color);
+}
+
+/* Hero section */
+
+.hero-section {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: url("../images/hero-image.jpg") center bottom / cover no-repeat;
+  color: var(--background-color);
+}
+
+.hero-section h1 {
+  font-size: clamp(2.2rem, 5vw, 4.5rem);
+  text-transform: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+  max-width: 38rem;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hero-button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+}
+
+.hero-button:hover,
+.hero-button:focus-visible {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+}
+
+/* media queries */
+
+/* Small devices (mobiles, 576px and up */
+@media screen and (min-width: 576px) {
+  .hero-section {
+    min-height: 55vh;
+  }
+
+  .hero-content {
+    padding-top: 2rem;
+  }
+}
+
+/* Large devices (tablets, 992px and up */
+@media screen and (min-width: 992px) {
+  .hero-section {
+    min-height: 65vh;
+  }
 }
