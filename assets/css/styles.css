@@ -20,10 +20,6 @@ h3 {
   text-transform: uppercase;
 }
 
-p {
-  font-family: var(--secondary-font);
-}
-
 body {
   background-color: var(--background-color);
 }
@@ -98,18 +94,14 @@ body {
 
 /* media queries */
 
-/* Small devices (mobiles, 576px and up */
-@media screen and (min-width: 576px) {
+/* Small devices (medium devices, 768px and up */
+@media screen and (min-width: 768px) {
   .hero-section {
     min-height: 55vh;
   }
-
-  .hero-content {
-    padding-top: 2rem;
-  }
 }
 
-/* Large devices (tablets, 992px and up */
+/* Large devices (larger devices, 992px and up */
 @media screen and (min-width: 992px) {
   .hero-section {
     min-height: 65vh;
