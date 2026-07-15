@@ -9,7 +9,7 @@
   --secondary-color: #6c7b55; /* Olive Green  */
   --accent-color: #c2a878; /* Beige  */
   --background-color: #fbf6e5; /* White  */
-  --text-color: #333333; /* Dark grey  */
+  --text-color: #0c0a01; /* Black  */
 }
 
 /* Global styles */
@@ -66,7 +66,9 @@ body {
   min-height: 80vh;
   display: flex;
   align-items: center;
-  background: url("../images/hero-image.jpg") center bottom / cover no-repeat;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("../images/hero-image.jpg") center bottom / cover no-repeat;
   color: var(--background-color);
 }
 
