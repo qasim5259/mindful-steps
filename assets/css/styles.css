@@ -117,63 +117,49 @@ body {
   border: 4px solid var(--accent-color);
 }
 
-/* Signs Section */
+/* Signs and Tips section Cards */
 
-#signs h2 {
+.card-section h2 {
   color: var(--primary-color);
   margin-bottom: 0.75rem;
 }
 
-#signs .card-img-top {
+.card-section .card-img-top {
   height: 220px;
   object-fit: cover;
 }
-#signs .card {
+
+.card-section .card {
   border-color: var(--accent-color);
   background-color: var(--background-color);
 }
 
-#signs .card-body {
+.card-section .card-body {
   padding: 1.25rem;
 }
 
-#signs .card-text {
+.card-section .card-text {
   line-height: 1.6;
 }
 
 /* Tips section */
-#tips h2 {
-  color: var(--primary-color);
-  margin-bottom: 0.75rem;
+
+#tips {
+  background-color: rgba(194, 168, 120, 0.18);
 }
 
-#tips .card-img-top {
-  height: 220px;
-  object-fit: cover;
-}
-#tips .card {
-  border-color: var(--accent-color);
-  background-color: var(--background-color);
-}
-
-#tips .card-body {
-  padding: 1.25rem;
-}
-
-#tips .card-text {
-  line-height: 1.6;
-}
+/* Support Section */
 
 /* media queries */
 
-/* Small devices (medium devices, 768px and up) */
+/* Medium devices (768px and up) */
 @media screen and (min-width: 768px) {
   .hero-section {
     min-height: 65vh;
   }
 }
 
-/* Large devices (larger devices, 992px and up) */
+/* Large devices (992px and up) */
 @media screen and (min-width: 992px) {
   .hero-section {
     min-height: 80vh;
